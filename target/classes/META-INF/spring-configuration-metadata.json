@@ -1,0 +1,24 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.javatechie.multiple.ds.api.config.BookDBConfig",
+      "name": "spring.book.datasource",
+      "sourceMethod": "dataSource()",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "com.javatechie.multiple.ds.api.config.UserDBConfig",
+      "name": "spring.user.datasource",
+      "sourceMethod": "dataSource()",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "com.javatechie.multiple.ds.api.config.UserDB2Config",
+      "name": "spring.userdb2.datasource",
+      "sourceMethod": "dataSource()",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": []
+}
