@@ -36,7 +36,7 @@ public class UserDBConfig {
 			@Qualifier("dataSource") DataSource dataSource) {
 		HashMap<String, Object> properties = new HashMap<>();
 		properties.put("hibernate.hbm2ddl.auto", "update");
-		properties.put("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
+		properties.put("hibernate.dialect", "org.hibernate.dialect.Oracle10gDialect");
 		return builder.dataSource(dataSource).properties(properties)
 				.packages("com.javatechie.multiple.ds.api.model.user").persistenceUnit("User").build();
 	}
